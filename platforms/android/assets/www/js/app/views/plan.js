@@ -48,7 +48,7 @@ define(function(require) {
 						message: model.get("text"),
 						date: reminder.add(key, number).toDate(),
 						autoCancel: true,
-						badge: length - 1,
+						//badge: length - 1,
 						repeat: "minutely"
 					});
 					i++;
@@ -72,6 +72,7 @@ define(function(require) {
 					height: $("#plan").height()
 				});
 				$$('scheduler').$$('month').show();
+				$$("scheduler").$$("calendarDayEvents").blockEvent();
 				$$("scheduler").parse(data);
 			}, 400);
 			return this;

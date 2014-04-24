@@ -13,6 +13,8 @@ var App = {
     utils: {}
 };
 
+var ga = {};
+
 require.config({
 
     waitSeconds: 120,
@@ -37,9 +39,11 @@ require.config({
     }
 });
 
-require(['app/router', 'ratchet', 'pageslider', '../../phonegap'], function(router) {
+require(['app/router', 'ratchet', 'pageslider', '../../cordova'], function(router) {
     document.addEventListener('touchmove', function(e) { e.preventDefault(); }, false);
     document.addEventListener('deviceready', function() {
+        ga = navigator.analytics;
+        ga.setTrackingId('UA-50190992-1');
         App.router = new router();
         Backbone.history.start();
     });

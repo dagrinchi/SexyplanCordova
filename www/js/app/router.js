@@ -34,7 +34,7 @@ define(function(require) {
             "pildoras": "pildoras",
             "product/:type/:id": "product",
             "calendar": "calendar",
-            "help" : "help"
+            "help": "help"
         },
 
         initialize: function() {
@@ -42,6 +42,7 @@ define(function(require) {
         },
 
         intro: function() {
+            ga.sendAppView("intro");
             if (typeof App.collections.plan === "undefined")
                 App.collections.plan = new Plan.Collection();
             App.collections.plan.fetch({
@@ -65,6 +66,7 @@ define(function(require) {
         },
 
         home: function() {
+            ga.sendAppView("home");
             if (typeof App.views.home === "undefined") {
                 App.views.home = new HomeView();
                 App.views.home.render();
@@ -75,6 +77,7 @@ define(function(require) {
         },
 
         inyectables: function() {
+            ga.sendAppView("inyectables");
             if (typeof App.collections.inyectables === "undefined")
                 App.collections.inyectables = new Product.Collection();
             App.collections.inyectables.type = "inyectables";
@@ -95,6 +98,7 @@ define(function(require) {
         },
 
         pildoras: function() {
+            ga.sendAppView("pildoras");
             if (typeof App.collections.pildoras === "undefined")
                 App.collections.pildoras = new Product.Collection();
             App.collections.pildoras.type = "pildoras";
@@ -115,6 +119,8 @@ define(function(require) {
         },
 
         product: function(type, id) {
+            ga.sendAppView("producto_" + type + "_" + id);
+            console.log("producto_" + type + "_" + id);
             App.models.product = new Product.Model({
                 id: id
             });
@@ -129,6 +135,7 @@ define(function(require) {
         },
 
         calendar: function() {
+            ga.sendAppView("calendar");
             App.collections.plan.fetch({
                 "success": function() {
                     App.views.plan.render();
@@ -138,6 +145,7 @@ define(function(require) {
         },
 
         help: function() {
+            ga.sendAppView("help");
             App.slider.slidePage(new HelpView().render().$el);
         }
     });
