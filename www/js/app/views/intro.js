@@ -17,31 +17,25 @@ define(function(require) {
 		template: _.template(tpl),
 
 		events: {
-			"click #acept": "acept"
+			"click #acept": "acept",
+			"click .btn-back": "back"
+		},
+
+		back: function(e) {
+			window.history.back();
+			return false;
 		},
 
 		acept: function(e) {
-			if (e.currentTarget.checked) {
-				window.localStorage.setItem("acept", true);
-				App.router.navigate("home", {
-					trigger: true
-				});
-
-			} else {
-				window.localStorage.setItem("acept", false);
-			}
-			console.log("Acepto los términos! " + window.localStorage.getItem("acept"));
+			window.localStorage.setItem("acept", true);
+			App.router.navigate("home", {
+				trigger: true
+			});
 			return true;
 		},
 
 		render: function() {
 			this.$el.html(this.template);
-			var acept = window.localStorage.getItem("acept");
-			if (typeof acept !== "undefined") {
-				setTimeout(function() {
-					$('#acept').prop('checked', $.parseJSON(acept));
-				}, 300);
-			}
 			return this;
 		}
 
