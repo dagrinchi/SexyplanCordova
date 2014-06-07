@@ -41,7 +41,7 @@ define(function(require) {
 				}
 			});
 
-			if (Object.keys(data).length >= 4) {
+			if (Object.keys(data).length >= 5) {
 				console.log(data);
 			}
 			return false;
@@ -59,10 +59,10 @@ define(function(require) {
 						view: "scrollview",
 						scroll: "y",
 						content: {
-							height: 600,
+							height: 800,
 							rows: [{
 								content: "helpForm",
-								height: 356
+								height: 534
 							}, {
 								content: "writeus"
 							}]
