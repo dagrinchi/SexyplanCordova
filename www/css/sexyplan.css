@@ -75,6 +75,18 @@ label.css-label {
 .sxy-header hr {
     border: 3px dashed #fff;
     border-style: none none dotted;
+    margin-bottom: 2px;
+}
+
+.sxy-header p {
+    color: #fff;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    font-family: sans-serif;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .logo {

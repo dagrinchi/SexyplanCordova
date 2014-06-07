@@ -158,6 +158,16 @@ define(function(require) {
 		"modoUso": "Se inicia primer dia de la menstruacion y se toma todos los dias a la misma hora por 21 dias.",
 		"image": "si-100.png",
 		"rec_type" : null
+	}, {
+		"id": 7,
+		"marca": "Segubell Anticoncepción Flexible",
+		"pastillaInyeccion": "Pildoras diarias",
+		"numero": 28,
+		"frecuencia": "1 tableta diaria",
+		"caracteristica": "Blancas",
+		"modoUso": "Régimen cíclico: Si quiere sangrar, se inicia el primer día de la menstruación, se toma todos los días a la misma hora por 24  días, desecha las últimas 4 tabletas que se encuentran en la franja roja, descansa 4 días y reinicia un nuevo blíster. Régimen Continuo: Si no desea sangrar, se inicia el primer día de la menstruación, se toma todos los días durante 28 días, al terminar el blíster al otro día inicia un nuevo blíster.",
+		"image": "si-100.png",
+		"rec_type" : null
 	}];
 
 	return {
