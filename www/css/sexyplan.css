@@ -546,7 +546,7 @@ select, input {
     border: none;
     box-shadow: none;
     -webkit-box-shadow: none;
-    direction: rtl;
+    /*direction: rtl;*/
 }
 .input-row {
     height: auto;

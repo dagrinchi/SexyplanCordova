@@ -40,7 +40,7 @@ define(function(require) {
 					number = 3;
 				}
 
-				var i = 1;
+				var i = 0;
 				while (i < length) {
 					window.plugin.notification.local.add({
 						id: model.get("id") + "-" + i,
@@ -48,8 +48,7 @@ define(function(require) {
 						message: model.get("text"),
 						date: reminder.add(key, number).toDate(),
 						autoCancel: true,
-						//badge: length - 1,
-						repeat: "minutely"
+						badge: i
 					});
 					i++;
 				}
