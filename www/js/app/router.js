@@ -56,11 +56,11 @@ define(function(require) {
                     App.views.intro.render();
 
                     App.slider.slidePage(App.views.intro.$el);
-                    setTimeout(function() {
-                        App.router.navigate("home", {
-                            trigger: true
-                        });
-                    }, 1000);
+                    // setTimeout(function() {
+                    //     App.router.navigate("home", {
+                    //         trigger: true
+                    //     });
+                    // }, 1000);
                 }
             });
         },
