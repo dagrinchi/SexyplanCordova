@@ -15,31 +15,11 @@ define(function(require) {
 
 	return Backbone.View.extend({
 
-		template: _.template(tpl),
-
-		events: {
-			"click #acept": "acept"
-		},
-
-		acept: function(e) {
-			if (e.currentTarget.checked) {
-				window.localStorage.setItem("acept", true);
-			} else {
-				window.localStorage.setItem("acept", false);
-			}
-			console.log("Acepto los términos! " + window.localStorage.getItem("acept"));
-			return true;
-		},
+		template: _.template(tpl),		
 
 		render: function() {
 			this.$el.html(this.template);
-			var self = this;
-			var acept = window.localStorage.getItem("acept");
-			if (typeof acept !== "undefined") {
-				setTimeout(function() {
-					$('#acept').prop('checked', $.parseJSON(acept));
-				}, 300);
-			}
+			var self = this;			
 			// setTimeout(function() {
 				// dhx.ui({
 				// 	id: "home",

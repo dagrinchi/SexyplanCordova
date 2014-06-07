@@ -16,8 +16,32 @@ define(function(require) {
 
 		template: _.template(tpl),
 
+		events: {
+			"click #acept": "acept"
+		},
+
+		acept: function(e) {
+			if (e.currentTarget.checked) {
+				window.localStorage.setItem("acept", true);
+				App.router.navigate("home", {
+					trigger: true
+				});
+
+			} else {
+				window.localStorage.setItem("acept", false);
+			}
+			console.log("Acepto los términos! " + window.localStorage.getItem("acept"));
+			return true;
+		},
+
 		render: function() {
 			this.$el.html(this.template);
+			var acept = window.localStorage.getItem("acept");
+			if (typeof acept !== "undefined") {
+				setTimeout(function() {
+					$('#acept').prop('checked', $.parseJSON(acept));
+				}, 300);
+			}
 			return this;
 		}
 

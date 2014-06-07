@@ -52,15 +52,24 @@ define(function(require) {
                             collection: App.collections.plan
                         });
 
-                    App.views.intro = new IntroView();
-                    App.views.intro.render();
+                    var acept = window.localStorage.getItem("acept");
+                    if (typeof acept !== "undefined") {
+                        if (acept) {
+                            App.router.navigate("home", {
+                                trigger: true
+                            });
+                        } else {
+                            goIntro();
+                        }
+                    } else {
+                        goIntro();
+                    }
 
-                    App.slider.slidePage(App.views.intro.$el);
-                    // setTimeout(function() {
-                    //     App.router.navigate("home", {
-                    //         trigger: true
-                    //     });
-                    // }, 1000);
+                    function goIntro() {
+                        App.views.intro = new IntroView();
+                        App.views.intro.render();
+                        App.slider.slidePage(App.views.intro.$el);
+                    }
                 }
             });
         },
