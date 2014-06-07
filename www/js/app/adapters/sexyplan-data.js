@@ -160,7 +160,7 @@ define(function(require) {
 		"rec_type" : null
 	}, {
 		"id": 7,
-		"marca": "Segubell Anticoncepción Flexible",
+		"marca": "Segubell",
 		"pastillaInyeccion": "Pildoras diarias",
 		"numero": 28,
 		"frecuencia": "1 tableta diaria",

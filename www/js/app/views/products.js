@@ -37,7 +37,7 @@ define(function(require) {
 						view: "scrollview",
 						scroll: "y",
 						content: {
-							height: 500,
+							height: 560,
 							rows: [{
 								content: "products-list"
 							}]
