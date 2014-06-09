@@ -16,6 +16,24 @@ define(function(require) {
 
 		template: _.template(tpl),
 
+		events: {
+			"click #acept": "acept",
+			"click .btn-back": "back"
+		},
+
+		back: function(e) {
+			window.history.back();
+			return false;
+		},
+
+		acept: function(e) {
+			window.localStorage.setItem("acept", true);
+			App.router.navigate("home", {
+				trigger: true
+			});
+			return true;
+		},
+
 		render: function() {
 			this.$el.html(this.template);
 			return this;

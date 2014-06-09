@@ -64,11 +64,10 @@ define(function(require) {
 				App.models.plan.save(null, {
 					"success": function(model) {
 						navigator.notification.alert('Recordatorio guardado!', function() {
-							window.history.back();
+							App.router.navigate("calendar", {
+								trigger: true
+							});
 							return false;
-							// App.router.navigate("calendar", {
-							// 	trigger: true
-							// });
 						}, 'Listo!', 'Aceptar');
 					}
 				});
@@ -88,7 +87,7 @@ define(function(require) {
 						view: "scrollview",
 						scroll: "y",
 						content: {
-							height: 480,
+							height: 780,
 							rows: [{
 								content: "product-detail"
 							}]

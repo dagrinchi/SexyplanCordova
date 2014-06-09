@@ -130,6 +130,7 @@
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/js/tpl/products.html \
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/plugins/com.cmackay.plugins.googleanalytics \
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/plugins/de.appplant.cordova.plugin.local-notification \
+/Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/plugins/org.apache.cordova.console \
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/plugins/org.apache.cordova.device \
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/plugins/org.apache.cordova.dialogs \
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/plugins/org.apache.cordova.network-information \
@@ -138,6 +139,9 @@
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/plugins/com.cmackay.plugins.googleanalytics/www/analytics.js \
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/plugins/de.appplant.cordova.plugin.local-notification/www \
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/plugins/de.appplant.cordova.plugin.local-notification/www/local-notification.js \
+/Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/plugins/org.apache.cordova.console/www \
+/Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/plugins/org.apache.cordova.console/www/console-via-logger.js \
+/Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/plugins/org.apache.cordova.console/www/logger.js \
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/plugins/org.apache.cordova.device/www \
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/plugins/org.apache.cordova.device/www/device.js \
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/plugins/org.apache.cordova.dialogs/www \

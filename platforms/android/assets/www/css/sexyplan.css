@@ -75,6 +75,18 @@ label.css-label {
 .sxy-header hr {
     border: 3px dashed #fff;
     border-style: none none dotted;
+    margin-bottom: 2px;
+}
+
+.sxy-header p {
+    color: #fff;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    font-family: sans-serif;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .logo {
@@ -139,7 +151,7 @@ label.css-label {
     color: #c03e8a;
 }
 
-.sxy-table-view .acept {
+.sxy-table-view {
     margin-bottom: 15px;
     color: #c03e8a;
     text-align: center;
@@ -287,10 +299,26 @@ label.css-label {
     line-height: 48px;
 }
 
-.sxy-btn-planificar {
+.sxy-btn-planificar, .sxy-btn-cond {
     background: none;
     border: none;
     height: 70px;
+}
+.sxy-btn-cond .btn {
+    background: rgb(253,245,154); /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(253,245,154,1) 0%, rgba(242,230,112,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(253,245,154,1)), color-stop(100%,rgba(242,230,112,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(253,245,154,1) 0%,rgba(242,230,112,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(253,245,154,1) 0%,rgba(242,230,112,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(253,245,154,1) 0%,rgba(242,230,112,1) 100%); /* IE10+ */
+    background: linear-gradient(to right, rgba(253,245,154,1) 0%,rgba(242,230,112,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdf59a', endColorstr='#f2e670',GradientType=1 ); /* IE6-9 */
+
+    color: #c03e8a;
+    font-family: 'Conv_Aaargh';
+    font-size: 18px;
+
+    border: none;
 }
 .sxy-btn-planificar .btn {
     background: rgb(253,245,154); /* Old browsers */
@@ -331,11 +359,18 @@ label.css-label {
     color: #fff;
 }
 
-/**  Home  **/
+/**  Intro  **/
 .home1 {
     margin: 0 auto;
 }
 .terminos-cond {
+    width: 85%;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
     background: #f2e670; /* Old browsers */
     background: -moz-linear-gradient(top, #f2e670 0%, #fbf6c2 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2e670), color-stop(100%,#fbf6c2)); /* Chrome,Safari4+ */
@@ -361,9 +396,8 @@ box-shadow: 8px 7px 0px 0px rgba(211,142,51,0.7);
 }
 
 .arrow-down {
-    position: absolute;
-    top: 100px;
-    right: 12%;
+    position: relative;
+    margin-right: 12%;
     width: 8px;
     height: 15px;
     border-left: 30px solid transparent;
@@ -375,6 +409,24 @@ box-shadow: 8px 7px 0px 0px rgba(211,142,51,0.7);
     -webkit-box-shadow: 8px 0px 0px 0px rgba(211,142,51,0.7);
     -moz-box-shadow: 8px 0px 0px 0px rgba(211,142,51,0.7);
     box-shadow: 8px 0px 0px 0px rgba(211,142,51,0.7);
+}
+
+.acept {
+    display: block;
+    position: relative;
+    overflow: hidden;    
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.condiciones-uso {
+    padding: 20px;
+    text-align: justify;
+    color: #000;
 }
 
 /** Plan **/
@@ -494,7 +546,7 @@ select, input {
     border: none;
     box-shadow: none;
     -webkit-box-shadow: none;
-    direction: rtl;
+    /*direction: rtl;*/
 }
 .input-row {
     height: auto;

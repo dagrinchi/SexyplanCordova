@@ -37,7 +37,7 @@
         <input type="text" id="text" name="text" placeholder="Vestir de azul..." />
       </div>
       <div class="input-row">
-        <label id="start-date-lbl" for="start-date">¿Cuando empezaste?</label>  
+        <label id="start-date-lbl" for="start-date">¿Que día?</label>  
         <input type="date" id="start-date"  name="start-date" />        
       </div>
       <div class="input-row">
@@ -46,7 +46,9 @@
       </div>
       <div class="input-row">        
         <label for="reminder-lbl" for="reminder">Recuerdame</label>  
-        <select id="reminder" name="reminder" class="sxy-select">          
+        <select id="reminder" name="reminder" class="sxy-select">            
+          <option value="minutes-5">5 minutos antes</option>
+          <option value="minutes-30">30 minutos antes</option>
           <option value="hours-1">Una hora antes</option>
           <option value="hours-2">Dos horas antes</option>
           <option value="days-1">Un día antes</option>

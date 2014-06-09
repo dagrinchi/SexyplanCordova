@@ -105,7 +105,7 @@ define(function(require) {
 		"numero": 21,
 		"frecuencia": "1 tableta diaria",
 		"caracteristica": "Blancas",
-		"modoUso": "Se inicia primer dia de la menstruacion y se toma todos los dias a la misma hora por 21 dias.",
+		"modoUso": "Se inicia primer dia de la menstruacion y se toma todos los dias a la misma hora por 21 dias.<br/>Se descansa 7 días y al 8o día reinicia un nuevo blíster.",
 		"image": "ya-100.png",
 		"rec_type" : null
 	}, {
@@ -125,7 +125,7 @@ define(function(require) {
 		"numero": 21,
 		"frecuencia": "1 tableta diaria",
 		"caracteristica": "Blancas",
-		"modoUso": "Se inicia primer dia de la menstruacion y se toma todos los dias a la misma hora por 21 dias.",
+		"modoUso": "Se inicia primer dia de la menstruacion y se toma todos los dias a la misma hora por 21 dias.<br/>Se descansa 7 días y al 8o día reinicia un nuevo blíster.",
 		"image": "be-100.png",
 		"rec_type" : null
 	}, {
@@ -135,7 +135,7 @@ define(function(require) {
 		"numero": 21,
 		"frecuencia": "1 tableta diaria",
 		"caracteristica": "Blancas",
-		"modoUso": "Se inicia primer dia de la menstruacion y se toma todos los dias a la misma hora por 21 dias.",
+		"modoUso": "Se inicia primer dia de la menstruacion y se toma todos los dias a la misma hora por 21 dias.<br/>Se descansa 7 días y al 8o día reinicia un nuevo blíster.",
 		"image": "mi-100.png",
 		"rec_type" : null
 	}, {
@@ -155,7 +155,17 @@ define(function(require) {
 		"numero": 21,
 		"frecuencia": "1 tableta diaria",
 		"caracteristica": "Blancas",
-		"modoUso": "Se inicia primer dia de la menstruacion y se toma todos los dias a la misma hora por 21 dias.",
+		"modoUso": "Se inicia primer dia de la menstruacion y se toma todos los dias a la misma hora por 21 dias.<br/>Se descansa 7 días y al 8o día reinicia un nuevo blíster.",
+		"image": "si-100.png",
+		"rec_type" : null
+	}, {
+		"id": 7,
+		"marca": "Segubell",
+		"pastillaInyeccion": "Pildoras diarias",
+		"numero": 28,
+		"frecuencia": "1 tableta diaria",
+		"caracteristica": "Blancas",
+		"modoUso": "Régimen cíclico: Si quiere sangrar, se inicia el primer día de la menstruación, se toma todos los días a la misma hora por 24  días, desecha las últimas 4 tabletas que se encuentran en la franja roja, descansa 4 días y reinicia un nuevo blíster.<br/>Régimen Continuo: Si no desea sangrar, se inicia el primer día de la menstruación, se toma todos los días durante 28 días, al terminar el blíster al otro día inicia un nuevo blíster.",
 		"image": "si-100.png",
 		"rec_type" : null
 	}];
