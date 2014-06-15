@@ -54,7 +54,7 @@ define(function(require) {
 		"frecuencia": "1 inyeccion trimestral",
 		"caracteristica": "Ampolla lechosa",
 		"modoUso": "Se inicia a la 4 o 6 semana postparto y de ahí en adelante cada 3 meses fecha calendario llegue o no llegue el periodo.",
-		"image": "de-100.png",
+		"image": "products/dep-100.png",
 		"rec_type" : "month_3___#"
 	}, {
 		"id": 2,
@@ -64,7 +64,7 @@ define(function(require) {
 		"frecuencia": "1 inyeccion mensual",
 		"caracteristica": "Ampolla lechosa",
 		"modoUso": "Se inicia primer dia de la mestruación y se aplica cada mes fecha calendario llegue o no el periodo menstrual.",
-		"image": "fe-100.png",
+		"image": "products/fem-100.png",
 		"rec_type" : "month_1___#"
 	}, {
 		"id": 3,
@@ -74,27 +74,27 @@ define(function(require) {
 		"frecuencia": "1 inyeccion mensual",
 		"caracteristica": "Ampolla aceitosa",
 		"modoUso": "Se inicia primer dia de la mestruación y se aplica cada mes fecha calendario llegue o no el periodo menstrual.",
-		"image": "no-100.png",
+		"image": "products/nof-100.png",
 		"rec_type" : "month_1___#"
 	}, {
 		"id": 4,
-		"marca": "Sinovular",
+		"marca": "Synovular",
 		"pastillaInyeccion": "Inyectable",
 		"numero": 1,
 		"frecuencia": "1 inyeccion mensual",
 		"caracteristica": "Ampolla aceitosa",
 		"modoUso": "Se inicia al 8 día de la menstruación y se espera cada ciclo a que llegue el periodo y se aplica al 8 dia despues de haber llegado.",
-		"image": "si-100.png",
+		"image": "products/synf-100.png",
 		"rec_type" : "month_1___#"
 	}, {
 		"id": 5,
-		"marca": "Sinovular suave",
+		"marca": "Synovular suave",
 		"pastillaInyeccion": "Inyectable",
 		"numero": 1,
 		"frecuencia": "1 inyeccion mensual",
 		"caracteristica": "Ampolla aceitosa",
 		"modoUso": "Se inicia al 8 día de la menstruación y se espera cada ciclo a que llegue el periodo y se aplica al 8 dia despues de haber llegado.",
-		"image": "si-100.png",
+		"image": "products/syns-100.png",
 		"rec_type" : "month_1___#"
 	}];
 
@@ -106,7 +106,7 @@ define(function(require) {
 		"frecuencia": "1 tableta diaria",
 		"caracteristica": "Blancas",
 		"modoUso": "Se inicia primer dia de la menstruacion y se toma todos los dias a la misma hora por 21 dias.<br/>Se descansa 7 días y al 8o día reinicia un nuevo blíster.",
-		"image": "ya-100.png",
+		"image": "products/yax-100.png",
 		"rec_type" : null
 	}, {
 		"id": 2,
@@ -116,7 +116,7 @@ define(function(require) {
 		"frecuencia": "1 tableta diaria",
 		"caracteristica": "24 Rosadas y 4 blancas",
 		"modoUso": "Se inicia primer dia de la menstruacion y se toma todos los dias por 28 días sin parar y vuelve a iniciar el siguiente blister sin parar.",
-		"image": "ya-100.png",
+		"image": "products/yaxi-100.png",
 		"rec_type" : null
 	}, {
 		"id": 3,
@@ -126,7 +126,7 @@ define(function(require) {
 		"frecuencia": "1 tableta diaria",
 		"caracteristica": "Blancas",
 		"modoUso": "Se inicia primer dia de la menstruacion y se toma todos los dias a la misma hora por 21 dias.<br/>Se descansa 7 días y al 8o día reinicia un nuevo blíster.",
-		"image": "be-100.png",
+		"image": "products/bell-100.png",
 		"rec_type" : null
 	}, {
 		"id": 4,
@@ -136,7 +136,7 @@ define(function(require) {
 		"frecuencia": "1 tableta diaria",
 		"caracteristica": "Blancas",
 		"modoUso": "Se inicia primer dia de la menstruacion y se toma todos los dias a la misma hora por 21 dias.<br/>Se descansa 7 días y al 8o día reinicia un nuevo blíster.",
-		"image": "mi-100.png",
+		"image": "products/min-100.png",
 		"rec_type" : null
 	}, {
 		"id": 5,
@@ -146,7 +146,7 @@ define(function(require) {
 		"frecuencia": "1 tableta diaria",
 		"caracteristica": "Blancas",
 		"modoUso": "Se inicia 4 a 6 semanas postparto y se toma todos los dias por 35 días sin parar y vuelve y se inicia el siguiente blister.",
-		"image": "po-100.png",
+		"image": "products/pos-100.png",
 		"rec_type" : null
 	}, {
 		"id": 6,
@@ -156,7 +156,7 @@ define(function(require) {
 		"frecuencia": "1 tableta diaria",
 		"caracteristica": "Blancas",
 		"modoUso": "Se inicia primer dia de la menstruacion y se toma todos los dias a la misma hora por 21 dias.<br/>Se descansa 7 días y al 8o día reinicia un nuevo blíster.",
-		"image": "si-100.png",
+		"image": "products/sin-100.png",
 		"rec_type" : null
 	}, {
 		"id": 7,
@@ -166,7 +166,7 @@ define(function(require) {
 		"frecuencia": "1 tableta diaria",
 		"caracteristica": "Blancas",
 		"modoUso": "Régimen cíclico: Si quiere sangrar, se inicia el primer día de la menstruación, se toma todos los días a la misma hora por 24  días, desecha las últimas 4 tabletas que se encuentran en la franja roja, descansa 4 días y reinicia un nuevo blíster.<br/>Régimen Continuo: Si no desea sangrar, se inicia el primer día de la menstruación, se toma todos los días durante 28 días, al terminar el blíster al otro día inicia un nuevo blíster.",
-		"image": "si-100.png",
+		"image": "products/seg-100.png",
 		"rec_type" : null
 	}];
 
