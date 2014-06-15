@@ -44,8 +44,8 @@ define(function(require) {
 					data[name] = value;
 				}
 			});
-			if (Object.keys(data).length >= 5) {
 
+			function create() {
 				var date = moment(data["start-date"] + " " + data["start-time"]);
 				App.models.plan = new Plan.Model();
 				App.models.plan.set("text", data["text"]);
@@ -71,6 +71,33 @@ define(function(require) {
 						}, 'Listo!', 'Aceptar');
 					}
 				});
+			}
+			if (Object.keys(data).length >= 5) {
+
+				if (App.collections.plan.length > 0) {
+					navigator.notification.confirm(
+						'Las notificaciones anteriores se borrarán y creará una nueva. ¿Desea continuar?',
+						function(ix) {
+							switch (ix) {
+								case 1:
+									window.plugin.notification.local.cancelAll(function() {
+										console.log("Todas las notificaciones borradas!");
+									});
+									App.collections.plan.reset();
+									create();
+									break;
+								case 2:
+									window.history.back();
+									break;
+								default:
+									window.history.back();
+									break;
+							}
+						},
+						'Atención', ['Aceptar', 'Cancelar']);
+				} else {
+					create();
+				}
 			}
 			return false;
 		},

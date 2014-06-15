@@ -21,6 +21,14 @@ define(function(require) {
 		return deferred.promise();
 	};
 
+	var deleteAll = function() {
+		var deferred = $.Deferred();
+		db.read("DELETE FROM planning", function(d) {
+			deferred.resolve(d);
+		});
+		return deferred.promise();
+	};
+
 	var findAll = function() {
 		var deferred = $.Deferred();
 		db.read("SELECT * FROM planning", function(d) {
@@ -31,6 +39,7 @@ define(function(require) {
 
 	return {
 		create: create,
+		deleteAll: deleteAll,
 		findAll: findAll
 	};
 
