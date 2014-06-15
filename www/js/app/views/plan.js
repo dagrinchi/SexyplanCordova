@@ -48,7 +48,8 @@ define(function(require) {
 						message: model.get("text"),
 						date: reminder.add(key, number).toDate(),
 						autoCancel: true,
-						badge: i
+						badge: i,
+						sound: App.sound
 					});
 					i++;
 				}
