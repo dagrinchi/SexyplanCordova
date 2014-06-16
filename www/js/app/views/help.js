@@ -42,7 +42,44 @@ define(function(require) {
 			});
 
 			if (Object.keys(data).length >= 5) {
-				console.log(data);
+
+				var message = "<strong>Nombre:  " + data.name + "</strong>" + " <br />";
+				message += "<strong>Fecha de nacimiento:  " + data.bithdate + "</strong>" + " <br />";
+				message += "<strong>Email:  " + data.email + "</strong>" + " <br />";
+				message += "<strong>Ciudad:  " + data.city + "</strong>" + " <br />";
+				message += "<strong>Medico tratante:  " + data.medico + "</strong>" + " <br />";
+				message += "<p>Comentarios:  " + data.comment + "</p>";
+
+				console.log(message);
+
+				$.ajax({
+					type: "POST",
+					url: "https://api.mailgun.net/v2/dagrinchi.com/messages",
+					username: "api:key-5d17kswasglvytgsyolm8zrpodjojqm3",
+					data: {
+						"from": "Sexyplan <no-reply@sexyplan.com.co>",
+						"to": "anticoncepcionatualcance@hotmail.com",
+						"subject": "Nuevo contacto del App Sexyplan",
+						"html": message
+					},
+					success: function(r) {
+						navigator.notification.alert(r.message, function() {
+							App.router.navigate("calendar", {
+								trigger: true
+							});
+							return false;
+						}, 'Mensaje enviado!', 'Aceptar');
+					},
+					error: function(r) {
+						navigator.notification.alert("Ops! No se pudo enviar tu mensaje, comprueba tu conexión o intenta más tarde.", function() {
+							App.router.navigate("calendar", {
+								trigger: true
+							});
+							return false;
+						}, 'Error!', 'Aceptar');
+					}
+				});
+
 			}
 			return false;
 		},
