@@ -5,6 +5,7 @@
  */
 
 var App = {
+    sound: "",
     router: {},
     models: {},
     collections: {},
@@ -40,7 +41,9 @@ require.config({
 });
 
 require(['app/router', 'ratchet', 'pageslider', '../../cordova'], function(router) {
-    document.addEventListener('touchmove', function(e) { e.preventDefault(); }, false);
+    document.addEventListener('touchmove', function(e) {
+        e.preventDefault();
+    }, false);
     document.addEventListener('deviceready', function() {
         ga = navigator.analytics;
         ga.setTrackingId('UA-50190992-1');

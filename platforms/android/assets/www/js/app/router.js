@@ -38,6 +38,17 @@ define(function(require) {
         },
 
         initialize: function() {
+            switch (device.platform) {
+                case "Android":
+                    App.sound = "/www/audio/android/metronome.mp3";
+                    break;
+                case "iOS":
+                    App.sound = "/www/audio/ios/metronome.caf";
+                    break;
+                default:
+                    App.sound = "/www/audio/android/metronome.mp3";
+                    break;
+            }
             App.slider = new PageSlider($('body'));
         },
 

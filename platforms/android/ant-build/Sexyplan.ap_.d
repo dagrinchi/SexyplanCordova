@@ -13,6 +13,7 @@
 /Users/david/cordova-projects/Sexyplan/platforms/android/ant-build/res/drawable-xhdpi/icon.png \
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/_where-is-www.txt \
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www \
+/Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/audio \
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/cordova.js \
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/cordova_plugins.js \
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/css \
@@ -21,6 +22,10 @@
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/index.html \
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/js \
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/plugins \
+/Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/audio/android \
+/Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/audio/ios \
+/Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/audio/android/metronome.mp3 \
+/Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/audio/ios/metronome.caf \
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/css/dhxscheduler_mobile_rec_debug.css \
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/css/ratchet-theme-ios.css \
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/css/ratchet.css \
@@ -68,6 +73,7 @@
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/images/nav-active-top.png \
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/images/no-100.png \
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/images/po-100.png \
+/Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/images/products \
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/images/si-100.png \
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/images/ya-100.png \
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/images/icons/icon-acerca-50.png \
@@ -78,6 +84,18 @@
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/images/icons/icon-planificacion-50@2x.png \
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/images/icons/icon-productos-50.png \
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/images/icons/icon-productos-50@x2.png \
+/Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/images/products/bell-100.png \
+/Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/images/products/dep-100.png \
+/Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/images/products/fem-100.png \
+/Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/images/products/min-100.png \
+/Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/images/products/nof-100.png \
+/Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/images/products/pos-100.png \
+/Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/images/products/seg-100.png \
+/Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/images/products/sin-100.png \
+/Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/images/products/synf-100.png \
+/Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/images/products/syns-100.png \
+/Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/images/products/yax-100.png \
+/Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/images/products/yaxi-100.png \
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/js/app \
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/js/app.js \
 /Users/david/cordova-projects/Sexyplan/platforms/android/assets/www/js/lib \

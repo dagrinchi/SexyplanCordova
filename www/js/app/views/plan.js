@@ -106,8 +106,10 @@ define(function(require) {
 									plan.set("rec_type", "month_1___#");
 									plan.save(null, {
 										"success": function(model) {
-											App.router.navigate("calendar", {
-												trigger: true
+											App.collections.plan.fetch({
+												"success": function(coll) {
+													$$("scheduler").parse(coll.toJSON());
+												}
 											});
 										}
 									});

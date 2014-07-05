@@ -44,24 +44,24 @@ define(function(require) {
 					data[name] = value;
 				}
 			});
-			if (Object.keys(data).length >= 5) {
 
+			function create() {
 				var date = moment(data["start-date"] + " " + data["start-time"]);
-				App.models.plan = new Plan.Model();
-				App.models.plan.set("text", data["text"]);
-				App.models.plan.set("start_date", date.format("YYYY-MM-DD HH:mm:ss"));
-				App.models.plan.set("reminder", data["reminder"]);
+				var plan = new Plan.Model();
+				plan.set("text", data["text"]);
+				plan.set("start_date", date.format("YYYY-MM-DD HH:mm:ss"));
+				plan.set("reminder", data["reminder"]);
 
 				if (typeof data.rec_type === "undefined") {
-					App.models.plan.set("end_date", date.add("days", data["numero"]).format("YYYY-MM-DD HH:mm:ss"));
-					App.models.plan.set("event_length", data["numero"]);
+					plan.set("end_date", date.add("days", data["numero"]).format("YYYY-MM-DD HH:mm:ss"));
+					plan.set("event_length", data["numero"]);
 				} else {
-					App.models.plan.set("end_date", date.add("days", 12).format("YYYY-MM-DD HH:mm:ss"));
-					App.models.plan.set("event_length", 12);
-					App.models.plan.set("rec_type", data.rec_type);
+					plan.set("end_date", date.add("days", 12).format("YYYY-MM-DD HH:mm:ss"));
+					plan.set("event_length", 12);
+					plan.set("rec_type", data.rec_type);
 				}
 
-				App.models.plan.save(null, {
+				plan.save(null, {
 					"success": function(model) {
 						navigator.notification.alert('Recordatorio guardado!', function() {
 							App.router.navigate("calendar", {
@@ -71,6 +71,33 @@ define(function(require) {
 						}, 'Listo!', 'Aceptar');
 					}
 				});
+			}
+			if (Object.keys(data).length >= 5) {
+
+				if (App.collections.plan.length > 0) {
+					navigator.notification.confirm(
+						'Las notificaciones anteriores se borrarán y creará una nueva. ¿Desea continuar?',
+						function(ix) {
+							switch (ix) {
+								case 1:
+									window.plugin.notification.local.cancelAll(function() {
+										console.log("Todas las notificaciones borradas!");
+									});
+									App.collections.plan.reset();
+									create();
+									break;
+								case 2:
+									window.history.back();
+									break;
+								default:
+									window.history.back();
+									break;
+							}
+						},
+						'Atención', ['Aceptar', 'Cancelar']);
+				} else {
+					create();
+				}
 			}
 			return false;
 		},
