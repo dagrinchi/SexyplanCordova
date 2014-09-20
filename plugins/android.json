@@ -9,11 +9,15 @@
                 "parents": {
                     "/*": [
                         {
-                            "xml": "<feature name=\"NetworkStatus\"><param name=\"android-package\" value=\"org.apache.cordova.networkinformation.NetworkManager\" /></feature>",
+                            "xml": "<feature name=\"GoogleAnalytics\"><param name=\"android-package\" value=\"com.cmackay.plugins.googleanalytics.GoogleAnalyticsPlugin\" /></feature>",
                             "count": 1
                         },
                         {
                             "xml": "<feature name=\"Vibration\"><param name=\"android-package\" value=\"org.apache.cordova.vibration.Vibration\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"NetworkStatus\"><param name=\"android-package\" value=\"org.apache.cordova.networkinformation.NetworkManager\" /></feature>",
                             "count": 1
                         },
                         {
@@ -26,10 +30,6 @@
                         },
                         {
                             "xml": "<feature name=\"LocalNotification\"><param name=\"android-package\" value=\"de.appplant.cordova.plugin.localnotification.LocalNotification\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"GoogleAnalytics\"><param name=\"android-package\" value=\"com.cmackay.plugins.googleanalytics.GoogleAnalyticsPlugin\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -76,28 +76,27 @@
         }
     },
     "installed_plugins": {
-        "org.apache.cordova.console": {
-            "PACKAGE_NAME": "com.dagrinchi.sexyplan"
-        },
-        "org.apache.cordova.network-information": {
+        "com.cmackay.plugins.googleanalytics": {
             "PACKAGE_NAME": "com.dagrinchi.sexyplan"
         },
         "org.apache.cordova.vibration": {
             "PACKAGE_NAME": "com.dagrinchi.sexyplan"
         },
+        "org.apache.cordova.network-information": {
+            "PACKAGE_NAME": "com.dagrinchi.sexyplan"
+        },
         "org.apache.cordova.dialogs": {
+            "PACKAGE_NAME": "com.dagrinchi.sexyplan"
+        },
+        "org.apache.cordova.console": {
+            "PACKAGE_NAME": "com.dagrinchi.sexyplan"
+        },
+        "org.apache.cordova.device": {
             "PACKAGE_NAME": "com.dagrinchi.sexyplan"
         },
         "de.appplant.cordova.plugin.local-notification": {
             "PACKAGE_NAME": "com.dagrinchi.sexyplan"
-        },
-        "com.cmackay.plugins.googleanalytics": {
-            "PACKAGE_NAME": "com.dagrinchi.sexyplan"
         }
     },
-    "dependent_plugins": {
-        "org.apache.cordova.device": {
-            "PACKAGE_NAME": "com.dagrinchi.sexyplan"
-        }
-    }
+    "dependent_plugins": {}
 }

@@ -1,5 +1,5 @@
 {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "name": "com.cmackay.plugins.googleanalytics",
     "cordova_name": "GoogleAnalytics",
     "description": "Plugin for Google Analytics SDK 3.0 (Android, iOS)",
@@ -8,6 +8,10 @@
     "keywords": [
         "cordova",
         "analytics"
+    ],
+    "platforms": [
+        "ios",
+        "android"
     ],
     "engines": [
         {

@@ -1,6 +1,20 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
 module.exports = [
     {
+        "file": "plugins/com.cmackay.plugins.googleanalytics/www/analytics.js",
+        "id": "com.cmackay.plugins.googleanalytics.GoogleAnalytics",
+        "clobbers": [
+            "navigator.analytics"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.vibration/www/vibration.js",
+        "id": "org.apache.cordova.vibration.notification",
+        "merges": [
+            "navigator.notification"
+        ]
+    },
+    {
         "file": "plugins/org.apache.cordova.network-information/www/network.js",
         "id": "org.apache.cordova.network-information.network",
         "clobbers": [
@@ -13,13 +27,6 @@ module.exports = [
         "id": "org.apache.cordova.network-information.Connection",
         "clobbers": [
             "Connection"
-        ]
-    },
-    {
-        "file": "plugins/org.apache.cordova.vibration/www/vibration.js",
-        "id": "org.apache.cordova.vibration.notification",
-        "merges": [
-            "navigator.notification"
         ]
     },
     {
@@ -37,37 +44,30 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/de.appplant.cordova.plugin.local-notification/www/local-notification.js",
-        "id": "de.appplant.cordova.plugin.local-notification.LocalNotification",
-        "clobbers": [
-            "plugin.notification.local"
-        ]
-    },
-    {
-        "file": "plugins/com.cmackay.plugins.googleanalytics/www/analytics.js",
-        "id": "com.cmackay.plugins.googleanalytics.GoogleAnalytics",
-        "clobbers": [
-            "navigator.analytics"
-        ]
-    },
-    {
         "file": "plugins/org.apache.cordova.device/www/device.js",
         "id": "org.apache.cordova.device.device",
         "clobbers": [
             "device"
+        ]
+    },
+    {
+        "file": "plugins/de.appplant.cordova.plugin.local-notification/www/local-notification.js",
+        "id": "de.appplant.cordova.plugin.local-notification.LocalNotification",
+        "clobbers": [
+            "plugin.notification.local"
         ]
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "org.apache.cordova.console": "0.2.8",
-    "org.apache.cordova.network-information": "0.2.8",
-    "org.apache.cordova.vibration": "0.3.8",
-    "org.apache.cordova.dialogs": "0.2.7",
-    "de.appplant.cordova.plugin.local-notification": "0.7.4",
-    "com.cmackay.plugins.googleanalytics": "0.1.0",
-    "org.apache.cordova.device": "0.2.9"
+    "com.cmackay.plugins.googleanalytics": "0.1.1",
+    "org.apache.cordova.vibration": "0.3.10",
+    "org.apache.cordova.network-information": "0.2.11",
+    "org.apache.cordova.dialogs": "0.2.9",
+    "org.apache.cordova.console": "0.2.10",
+    "org.apache.cordova.device": "0.2.11",
+    "de.appplant.cordova.plugin.local-notification": "0.7.4"
 }
 // BOTTOM OF METADATA
 });
