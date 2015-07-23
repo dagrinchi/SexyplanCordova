@@ -24,20 +24,21 @@ define(function(require) {
 		},
 
 		render: function() {
-			this.$el.html(this.template({
-				data: this.collection.toJSON()
+			var self = this;
+			self.$el.html(self.template({
+				data: self.collection.toJSON()
 			}));
-			setTimeout(function() {
+			setTimeout(function() {				
 				dhx.ui({
 					id: "products",
 					container: "products",
 					view: "layout",
-					height: $("#products").height(),
+					height: self.$el.height(),
 					rows: [{
 						view: "scrollview",
 						scroll: "y",
 						content: {
-							height: 560,
+							height: self.$el.height() * 2,
 							rows: [{
 								content: "products-list"
 							}]
@@ -45,7 +46,7 @@ define(function(require) {
 					}]
 				});
 			}, 600);
-			return this;
+			return self;
 		}
 
 	});

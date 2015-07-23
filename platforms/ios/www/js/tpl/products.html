@@ -9,9 +9,8 @@
     <% _.each(products, function(p){ %>    
     <li class="table-view-cell media">
       <a class="navigate-right" href="#product/<%= p.id %>">
-        <img class="media-object pull-left" src="images/<%= p.image %>"> 
         <div class="media-body">
-          <%= p.marca %>
+          <%= p.nombreGenerico %>
           <p><%= p.pastillaInyeccion %></p>
         </div>
       </a>

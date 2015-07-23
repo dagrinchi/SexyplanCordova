@@ -87,18 +87,19 @@ define(function(require) {
 		},
 
 		render: function() {
-			this.$el.html(this.template);
+			var self = this;
+			self.$el.html(self.template);
 			setTimeout(function() {
 				dhx.ui({
 					id: "help",
 					container: "help",
 					view: "layout",
-					height: $("#help").height() + 175,
+					height: self.$el.height(),
 					rows: [{
 						view: "scrollview",
 						scroll: "y",
 						content: {
-							height: 800,
+							height: self.$el.height() * 2,
 							rows: [{
 								content: "helpForm",
 								height: 534
@@ -109,7 +110,7 @@ define(function(require) {
 					}]
 				});
 			}, 400);
-			return this;
+			return self;
 		}
 
 	});

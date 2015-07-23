@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		0A4561B8C9AB41DE9FBA1D9F /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B14335ACEA48413994E30EF9 /* AdSupport.framework */; };
 		0AA5DA5EB7E6484FA121187F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85FEB493A50F423A832F80DD /* AudioToolbox.framework */; settings = {ATTRIBUTES = (Weak, ); }; };

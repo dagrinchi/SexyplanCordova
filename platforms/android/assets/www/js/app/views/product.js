@@ -103,18 +103,19 @@ define(function(require) {
 		},
 
 		render: function() {
-			this.$el.html(this.template(this.model.toJSON()));
+			var self = this;
+			self.$el.html(self.template(self.model.toJSON()));
 			setTimeout(function() {
 				dhx.ui({
 					id: "product",
 					container: "product",
 					view: "layout",
-					height: $("#product").height(),
+					height: self.$el.height(),
 					rows: [{
 						view: "scrollview",
 						scroll: "y",
 						content: {
-							height: 780,
+							height: self.$el.height() * 2,
 							rows: [{
 								content: "product-detail"
 							}]
@@ -122,7 +123,7 @@ define(function(require) {
 					}]
 				});
 			}, 400);
-			return this;
+			return self;
 		}
 
 	});
