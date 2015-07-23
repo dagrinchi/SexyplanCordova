@@ -15,9 +15,8 @@
     <% _.each(data, function(d){ %>    
     <li class="table-view-cell media">
       <a class="navigate-right" href="#product/inyectables/<%= d.id %>">
-        <img class="media-object pull-left" src="images/<%= d.image %>"> 
-        <div class="media-body">
-          <%= d.marca %>
+        <div class="media-body" style="text-align: left;">
+          <%= d.nombreGenerico %>
           <p><%= d.frecuencia %></p>
         </div>
       </a>

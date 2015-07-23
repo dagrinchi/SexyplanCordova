@@ -57,8 +57,8 @@ define(function(require) {
 					url: "https://api.mailgun.net/v2/dagrinchi.com/messages",
 					username: "api:key-5d17kswasglvytgsyolm8zrpodjojqm3",
 					data: {
-						"from": "Sexyplan <anticoncepcionatualcance@hotmail.com>",
-						"to": "anticoncepcionatualcance@hotmail.com",
+						"from": "Sexyplan <vitalnetips@gmail.com>",
+						"to": "vitalnetips@gmail.com, dudasvitalnetips@gmail.com",
 						"subject": "Nuevo contacto del App Sexyplan",
 						"html": message,
 						"o:tag": "sexyplan",

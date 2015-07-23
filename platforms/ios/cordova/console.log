@@ -1,0 +1,408 @@
+2015-07-13 11:19:47.315 Femiapp[2567:569629] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/david/Library/Developer/CoreSimulator/Devices/4849EA84-7299-4530-AA4D-A406B4968F3B/data/Containers/Data/Application/8BB9CBF8-2C0A-4C7B-9AFA-B3E8B5DD97E2/Library/Cookies/Cookies.binarycookies
+2015-07-13 11:19:47.365 Femiapp[2567:569629] Multi-tasking -> Device: YES, App: YES
+2015-07-13 11:19:47.395 Femiapp[2567:569629] Unlimited access to network resources
+2015-07-13 11:19:47.399 Femiapp[2567:569629] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2015-07-13 11:19:47.724 Femiapp[2567:569629] [CDVTimer][localnotification] 0.046968ms
+2015-07-13 11:19:47.724 Femiapp[2567:569629] [CDVTimer][localnotification] 0.006020ms
+2015-07-13 11:19:47.724 Femiapp[2567:569629] [CDVTimer][TotalPluginStartup] 0.945032ms
+2015-07-13 11:19:48.037 Femiapp[2567:569629] Resetting plugins due to page load.
+2015-07-13 11:19:48.201 Femiapp[2567:569629] Finished load of: file:///Users/david/Library/Developer/CoreSimulator/Devices/4849EA84-7299-4530-AA4D-A406B4968F3B/data/Containers/Bundle/Application/34682359-C6A7-4F11-A9C5-FDC26BA21E4D/Femiapp.app/www/index.html
+2015-07-13 11:19:48.375 Femiapp[2567:569629] {"code":5,"message":"could not prepare statement (1 no such table: planning)"}
+2015-07-13 11:19:48.384 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIBatchingDispatcher persist:] (GAIBatchingDispatcher.m:424): Saved hit: {
+    parameters =     {
+        "&_u" = ".tenL";
+        "&_v" = "mi3.0.7";
+        "&aid" = "com.dagrinchi.sexyplan";
+        "&an" = Femiapp;
+        "&av" = "0.0.1";
+        "&cd" = intro;
+        "&cid" = "a708f01c-ae19-40a7-9e3a-052d465c806d";
+        "&sr" = 320x480;
+        "&t" = appview;
+        "&tid" = "UA-50190992-1";
+        "&ul" = en;
+        "&v" = 1;
+        "&z" = 13637099414081499091;
+        gaiVersion = "3.07";
+    };
+    timestamp = "2015-07-13 16:19:48 +0000";
+}
+2015-07-13 11:19:48.843 Femiapp[2567:569629] INFO: GoogleAnalytics 3.07 -[GAIReachabilityChecker reachabilityFlagsChanged:] (GAIReachabilityChecker.m:159): Reachability flags update: 0X000002
+2015-07-13 11:19:58.387 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIRequestBuilder requestGetUrl:payload:] (GAIRequestBuilder.m:195): building URLRequest for https://ssl.google-analytics.com/collect
+2015-07-13 11:19:58.388 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIBatchingDispatcher dispatch] (GAIBatchingDispatcher.m:509): Sending hit(s) GET: https://ssl.google-analytics.com/collect?av=0.0.1&cd=intro&t=appview&ul=en&_u=.tenL&tid=UA-50190992-1&cid=a708f01c-ae19-40a7-9e3a-052d465c806d&sr=320x480&v=1&aid=com.dagrinchi.sexyplan&_v=mi3.0.7&an=Femiapp&ht=1436804388381&qt=10005&z=13637099414081499091
+2015-07-13 11:19:58.755 Femiapp[2567:569629] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher didSendHits:response:data:error:] (GAIBatchingDispatcher.m:157): Hit(s) dispatched: HTTP status 200
+2015-07-13 11:19:58.756 Femiapp[2567:569769] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher deleteHits:] (GAIBatchingDispatcher.m:436): hit(s) Successfully dispatched
+2015-07-13 11:19:58.758 Femiapp[2567:569769] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher didSendHits:] (GAIBatchingDispatcher.m:167): 1 hit(s) sent
+2015-07-13 11:20:04.062 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIBatchingDispatcher persist:] (GAIBatchingDispatcher.m:424): Saved hit: {
+    parameters =     {
+        "&_u" = ".L";
+        "&_v" = "mi3.0.7";
+        "&aid" = "com.dagrinchi.sexyplan";
+        "&an" = Femiapp;
+        "&av" = "0.0.1";
+        "&cd" = home;
+        "&cid" = "a708f01c-ae19-40a7-9e3a-052d465c806d";
+        "&sr" = 320x480;
+        "&t" = appview;
+        "&tid" = "UA-50190992-1";
+        "&ul" = en;
+        "&v" = 1;
+        "&z" = 13637099414081499092;
+        gaiVersion = "3.07";
+    };
+    timestamp = "2015-07-13 16:20:04 +0000";
+}
+2015-07-13 11:20:06.596 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIBatchingDispatcher persist:] (GAIBatchingDispatcher.m:424): Saved hit: {
+    parameters =     {
+        "&_u" = ".L";
+        "&_v" = "mi3.0.7";
+        "&aid" = "com.dagrinchi.sexyplan";
+        "&an" = Femiapp;
+        "&av" = "0.0.1";
+        "&cd" = pildoras;
+        "&cid" = "a708f01c-ae19-40a7-9e3a-052d465c806d";
+        "&sr" = 320x480;
+        "&t" = appview;
+        "&tid" = "UA-50190992-1";
+        "&ul" = en;
+        "&v" = 1;
+        "&z" = 13637099414081499093;
+        gaiVersion = "3.07";
+    };
+    timestamp = "2015-07-13 16:20:06 +0000";
+}
+2015-07-13 11:20:09.003 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIBatchingDispatcher persist:] (GAIBatchingDispatcher.m:424): Saved hit: {
+    parameters =     {
+        "&_u" = ".L";
+        "&_v" = "mi3.0.7";
+        "&aid" = "com.dagrinchi.sexyplan";
+        "&an" = Femiapp;
+        "&av" = "0.0.1";
+        "&cd" = home;
+        "&cid" = "a708f01c-ae19-40a7-9e3a-052d465c806d";
+        "&sr" = 320x480;
+        "&t" = appview;
+        "&tid" = "UA-50190992-1";
+        "&ul" = en;
+        "&v" = 1;
+        "&z" = 13637099414081499094;
+        gaiVersion = "3.07";
+    };
+    timestamp = "2015-07-13 16:20:08 +0000";
+}
+2015-07-13 11:20:09.752 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIBatchingDispatcher persist:] (GAIBatchingDispatcher.m:424): Saved hit: {
+    parameters =     {
+        "&_u" = ".L";
+        "&_v" = "mi3.0.7";
+        "&aid" = "com.dagrinchi.sexyplan";
+        "&an" = Femiapp;
+        "&av" = "0.0.1";
+        "&cd" = inyectables;
+        "&cid" = "a708f01c-ae19-40a7-9e3a-052d465c806d";
+        "&sr" = 320x480;
+        "&t" = appview;
+        "&tid" = "UA-50190992-1";
+        "&ul" = en;
+        "&v" = 1;
+        "&z" = 13637099414081499095;
+        gaiVersion = "3.07";
+    };
+    timestamp = "2015-07-13 16:20:09 +0000";
+}
+2015-07-13 11:20:13.000 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIBatchingDispatcher persist:] (GAIBatchingDispatcher.m:424): Saved hit: {
+    parameters =     {
+        "&_u" = ".L";
+        "&_v" = "mi3.0.7";
+        "&aid" = "com.dagrinchi.sexyplan";
+        "&an" = Femiapp;
+        "&av" = "0.0.1";
+        "&cd" = home;
+        "&cid" = "a708f01c-ae19-40a7-9e3a-052d465c806d";
+        "&sr" = 320x480;
+        "&t" = appview;
+        "&tid" = "UA-50190992-1";
+        "&ul" = en;
+        "&v" = 1;
+        "&z" = 13637099414081499096;
+        gaiVersion = "3.07";
+    };
+    timestamp = "2015-07-13 16:20:12 +0000";
+}
+2015-07-13 11:20:14.068 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIRequestBuilder requestGetUrl:payload:] (GAIRequestBuilder.m:195): building URLRequest for https://ssl.google-analytics.com/collect
+2015-07-13 11:20:14.068 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIBatchingDispatcher dispatch] (GAIBatchingDispatcher.m:509): Sending hit(s) GET: https://ssl.google-analytics.com/collect?av=0.0.1&cd=home&t=appview&ul=en&_u=.L&tid=UA-50190992-1&cid=a708f01c-ae19-40a7-9e3a-052d465c806d&sr=320x480&v=1&aid=com.dagrinchi.sexyplan&_v=mi3.0.7&an=Femiapp&ht=1436804404061&qt=10006&z=13637099414081499092
+2015-07-13 11:20:14.132 Femiapp[2567:569629] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher didSendHits:response:data:error:] (GAIBatchingDispatcher.m:157): Hit(s) dispatched: HTTP status 200
+2015-07-13 11:20:14.132 Femiapp[2567:569769] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher deleteHits:] (GAIBatchingDispatcher.m:436): hit(s) Successfully dispatched
+2015-07-13 11:20:14.134 Femiapp[2567:569769] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher didSendHits:] (GAIBatchingDispatcher.m:167): 1 hit(s) sent
+2015-07-13 11:20:14.135 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIRequestBuilder requestGetUrl:payload:] (GAIRequestBuilder.m:195): building URLRequest for https://ssl.google-analytics.com/collect
+2015-07-13 11:20:14.135 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIBatchingDispatcher dispatch] (GAIBatchingDispatcher.m:509): Sending hit(s) GET: https://ssl.google-analytics.com/collect?av=0.0.1&cd=pildoras&t=appview&ul=en&_u=.L&tid=UA-50190992-1&cid=a708f01c-ae19-40a7-9e3a-052d465c806d&sr=320x480&v=1&aid=com.dagrinchi.sexyplan&_v=mi3.0.7&an=Femiapp&ht=1436804406595&qt=7539&z=13637099414081499093
+2015-07-13 11:20:14.199 Femiapp[2567:569629] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher didSendHits:response:data:error:] (GAIBatchingDispatcher.m:157): Hit(s) dispatched: HTTP status 200
+2015-07-13 11:20:14.199 Femiapp[2567:569769] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher deleteHits:] (GAIBatchingDispatcher.m:436): hit(s) Successfully dispatched
+2015-07-13 11:20:14.200 Femiapp[2567:569769] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher didSendHits:] (GAIBatchingDispatcher.m:167): 1 hit(s) sent
+2015-07-13 11:20:14.201 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIRequestBuilder requestGetUrl:payload:] (GAIRequestBuilder.m:195): building URLRequest for https://ssl.google-analytics.com/collect
+2015-07-13 11:20:14.201 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIBatchingDispatcher dispatch] (GAIBatchingDispatcher.m:509): Sending hit(s) GET: https://ssl.google-analytics.com/collect?av=0.0.1&cd=home&t=appview&ul=en&_u=.L&tid=UA-50190992-1&cid=a708f01c-ae19-40a7-9e3a-052d465c806d&sr=320x480&v=1&aid=com.dagrinchi.sexyplan&_v=mi3.0.7&an=Femiapp&ht=1436804408993&qt=5207&z=13637099414081499094
+2015-07-13 11:20:14.264 Femiapp[2567:569629] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher didSendHits:response:data:error:] (GAIBatchingDispatcher.m:157): Hit(s) dispatched: HTTP status 200
+2015-07-13 11:20:14.264 Femiapp[2567:569769] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher deleteHits:] (GAIBatchingDispatcher.m:436): hit(s) Successfully dispatched
+2015-07-13 11:20:14.265 Femiapp[2567:569769] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher didSendHits:] (GAIBatchingDispatcher.m:167): 1 hit(s) sent
+2015-07-13 11:20:14.266 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIRequestBuilder requestGetUrl:payload:] (GAIRequestBuilder.m:195): building URLRequest for https://ssl.google-analytics.com/collect
+2015-07-13 11:20:14.266 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIBatchingDispatcher dispatch] (GAIBatchingDispatcher.m:509): Sending hit(s) GET: https://ssl.google-analytics.com/collect?av=0.0.1&cd=inyectables&t=appview&ul=en&_u=.L&tid=UA-50190992-1&cid=a708f01c-ae19-40a7-9e3a-052d465c806d&sr=320x480&v=1&aid=com.dagrinchi.sexyplan&_v=mi3.0.7&an=Femiapp&ht=1436804409751&qt=4515&z=13637099414081499095
+2015-07-13 11:20:14.327 Femiapp[2567:569629] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher didSendHits:response:data:error:] (GAIBatchingDispatcher.m:157): Hit(s) dispatched: HTTP status 200
+2015-07-13 11:20:14.327 Femiapp[2567:569769] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher deleteHits:] (GAIBatchingDispatcher.m:436): hit(s) Successfully dispatched
+2015-07-13 11:20:14.328 Femiapp[2567:569769] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher didSendHits:] (GAIBatchingDispatcher.m:167): 1 hit(s) sent
+2015-07-13 11:20:14.329 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIRequestBuilder requestGetUrl:payload:] (GAIRequestBuilder.m:195): building URLRequest for https://ssl.google-analytics.com/collect
+2015-07-13 11:20:14.329 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIBatchingDispatcher dispatch] (GAIBatchingDispatcher.m:509): Sending hit(s) GET: https://ssl.google-analytics.com/collect?av=0.0.1&cd=home&t=appview&ul=en&_u=.L&tid=UA-50190992-1&cid=a708f01c-ae19-40a7-9e3a-052d465c806d&sr=320x480&v=1&aid=com.dagrinchi.sexyplan&_v=mi3.0.7&an=Femiapp&ht=1436804412997&qt=1331&z=13637099414081499096
+2015-07-13 11:20:14.393 Femiapp[2567:569629] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher didSendHits:response:data:error:] (GAIBatchingDispatcher.m:157): Hit(s) dispatched: HTTP status 200
+2015-07-13 11:20:14.394 Femiapp[2567:569769] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher deleteHits:] (GAIBatchingDispatcher.m:436): hit(s) Successfully dispatched
+2015-07-13 11:20:14.395 Femiapp[2567:569769] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher didSendHits:] (GAIBatchingDispatcher.m:167): 1 hit(s) sent
+2015-07-13 11:20:14.652 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIBatchingDispatcher persist:] (GAIBatchingDispatcher.m:424): Saved hit: {
+    parameters =     {
+        "&_u" = ".L";
+        "&_v" = "mi3.0.7";
+        "&aid" = "com.dagrinchi.sexyplan";
+        "&an" = Femiapp;
+        "&av" = "0.0.1";
+        "&cd" = calendar;
+        "&cid" = "a708f01c-ae19-40a7-9e3a-052d465c806d";
+        "&sr" = 320x480;
+        "&t" = appview;
+        "&tid" = "UA-50190992-1";
+        "&ul" = en;
+        "&v" = 1;
+        "&z" = 13637099414081499097;
+        gaiVersion = "3.07";
+    };
+    timestamp = "2015-07-13 16:20:14 +0000";
+}
+2015-07-13 11:20:14.653 Femiapp[2567:569629] {"code":5,"message":"could not prepare statement (1 no such table: planning)"}
+2015-07-13 11:20:17.627 Femiapp[2567:569629] THREAD WARNING: ['Notification'] took '28.411865' ms. Plugin should use a background thread.
+2015-07-13 11:20:20.040 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIBatchingDispatcher persist:] (GAIBatchingDispatcher.m:424): Saved hit: {
+    parameters =     {
+        "&_u" = ".L";
+        "&_v" = "mi3.0.7";
+        "&aid" = "com.dagrinchi.sexyplan";
+        "&an" = Femiapp;
+        "&av" = "0.0.1";
+        "&cd" = help;
+        "&cid" = "a708f01c-ae19-40a7-9e3a-052d465c806d";
+        "&sr" = 320x480;
+        "&t" = appview;
+        "&tid" = "UA-50190992-1";
+        "&ul" = en;
+        "&v" = 1;
+        "&z" = 13637099414081499098;
+        gaiVersion = "3.07";
+    };
+    timestamp = "2015-07-13 16:20:20 +0000";
+}
+2015-07-13 11:20:24.287 Femiapp[2567:569629] {"code":5,"message":"could not prepare statement (1 no such table: planning)"}
+2015-07-13 11:20:24.287 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIBatchingDispatcher persist:] (GAIBatchingDispatcher.m:424): Saved hit: {
+    parameters =     {
+        "&_u" = ".L";
+        "&_v" = "mi3.0.7";
+        "&aid" = "com.dagrinchi.sexyplan";
+        "&an" = Femiapp;
+        "&av" = "0.0.1";
+        "&cd" = calendar;
+        "&cid" = "a708f01c-ae19-40a7-9e3a-052d465c806d";
+        "&sr" = 320x480;
+        "&t" = appview;
+        "&tid" = "UA-50190992-1";
+        "&ul" = en;
+        "&v" = 1;
+        "&z" = 13637099414081499099;
+        gaiVersion = "3.07";
+    };
+    timestamp = "2015-07-13 16:20:24 +0000";
+}
+2015-07-13 11:20:24.655 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIRequestBuilder requestGetUrl:payload:] (GAIRequestBuilder.m:195): building URLRequest for https://ssl.google-analytics.com/collect
+2015-07-13 11:20:24.656 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIBatchingDispatcher dispatch] (GAIBatchingDispatcher.m:509): Sending hit(s) GET: https://ssl.google-analytics.com/collect?av=0.0.1&cd=calendar&t=appview&ul=en&_u=.L&tid=UA-50190992-1&cid=a708f01c-ae19-40a7-9e3a-052d465c806d&sr=320x480&v=1&aid=com.dagrinchi.sexyplan&_v=mi3.0.7&an=Femiapp&ht=1436804414649&qt=10005&z=13637099414081499097
+2015-07-13 11:20:25.405 Femiapp[2567:569629] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher didSendHits:response:data:error:] (GAIBatchingDispatcher.m:157): Hit(s) dispatched: HTTP status 200
+2015-07-13 11:20:25.405 Femiapp[2567:569769] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher deleteHits:] (GAIBatchingDispatcher.m:436): hit(s) Successfully dispatched
+2015-07-13 11:20:25.407 Femiapp[2567:569769] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher didSendHits:] (GAIBatchingDispatcher.m:167): 1 hit(s) sent
+2015-07-13 11:20:25.408 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIRequestBuilder requestGetUrl:payload:] (GAIRequestBuilder.m:195): building URLRequest for https://ssl.google-analytics.com/collect
+2015-07-13 11:20:25.409 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIBatchingDispatcher dispatch] (GAIBatchingDispatcher.m:509): Sending hit(s) GET: https://ssl.google-analytics.com/collect?av=0.0.1&cd=help&t=appview&ul=en&_u=.L&tid=UA-50190992-1&cid=a708f01c-ae19-40a7-9e3a-052d465c806d&sr=320x480&v=1&aid=com.dagrinchi.sexyplan&_v=mi3.0.7&an=Femiapp&ht=1436804420037&qt=5370&z=13637099414081499098
+2015-07-13 11:20:25.536 Femiapp[2567:569629] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher didSendHits:response:data:error:] (GAIBatchingDispatcher.m:157): Hit(s) dispatched: HTTP status 200
+2015-07-13 11:20:25.537 Femiapp[2567:569769] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher deleteHits:] (GAIBatchingDispatcher.m:436): hit(s) Successfully dispatched
+2015-07-13 11:20:25.539 Femiapp[2567:569769] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher didSendHits:] (GAIBatchingDispatcher.m:167): 1 hit(s) sent
+2015-07-13 11:20:25.540 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIRequestBuilder requestGetUrl:payload:] (GAIRequestBuilder.m:195): building URLRequest for https://ssl.google-analytics.com/collect
+2015-07-13 11:20:25.540 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIBatchingDispatcher dispatch] (GAIBatchingDispatcher.m:509): Sending hit(s) GET: https://ssl.google-analytics.com/collect?av=0.0.1&cd=calendar&t=appview&ul=en&_u=.L&tid=UA-50190992-1&cid=a708f01c-ae19-40a7-9e3a-052d465c806d&sr=320x480&v=1&aid=com.dagrinchi.sexyplan&_v=mi3.0.7&an=Femiapp&ht=1436804424285&qt=1254&z=13637099414081499099
+2015-07-13 11:20:25.604 Femiapp[2567:569629] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher didSendHits:response:data:error:] (GAIBatchingDispatcher.m:157): Hit(s) dispatched: HTTP status 200
+2015-07-13 11:20:25.604 Femiapp[2567:569769] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher deleteHits:] (GAIBatchingDispatcher.m:436): hit(s) Successfully dispatched
+2015-07-13 11:20:25.605 Femiapp[2567:569769] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher didSendHits:] (GAIBatchingDispatcher.m:167): 1 hit(s) sent
+2015-07-13 11:20:25.804 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIBatchingDispatcher persist:] (GAIBatchingDispatcher.m:424): Saved hit: {
+    parameters =     {
+        "&_u" = ".L";
+        "&_v" = "mi3.0.7";
+        "&aid" = "com.dagrinchi.sexyplan";
+        "&an" = Femiapp;
+        "&av" = "0.0.1";
+        "&cd" = home;
+        "&cid" = "a708f01c-ae19-40a7-9e3a-052d465c806d";
+        "&sr" = 320x480;
+        "&t" = appview;
+        "&tid" = "UA-50190992-1";
+        "&ul" = en;
+        "&v" = 1;
+        "&z" = 13637099414081499100;
+        gaiVersion = "3.07";
+    };
+    timestamp = "2015-07-13 16:20:25 +0000";
+}
+2015-07-13 11:20:27.100 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIBatchingDispatcher persist:] (GAIBatchingDispatcher.m:424): Saved hit: {
+    parameters =     {
+        "&_u" = ".L";
+        "&_v" = "mi3.0.7";
+        "&aid" = "com.dagrinchi.sexyplan";
+        "&an" = Femiapp;
+        "&av" = "0.0.1";
+        "&cd" = pildoras;
+        "&cid" = "a708f01c-ae19-40a7-9e3a-052d465c806d";
+        "&sr" = 320x480;
+        "&t" = appview;
+        "&tid" = "UA-50190992-1";
+        "&ul" = en;
+        "&v" = 1;
+        "&z" = 13637099414081499101;
+        gaiVersion = "3.07";
+    };
+    timestamp = "2015-07-13 16:20:27 +0000";
+}
+2015-07-13 11:20:28.147 Femiapp[2567:569629] producto_pildoras_4
+2015-07-13 11:20:28.150 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIBatchingDispatcher persist:] (GAIBatchingDispatcher.m:424): Saved hit: {
+    parameters =     {
+        "&_u" = ".L";
+        "&_v" = "mi3.0.7";
+        "&aid" = "com.dagrinchi.sexyplan";
+        "&an" = Femiapp;
+        "&av" = "0.0.1";
+        "&cd" = "producto_pildoras_4";
+        "&cid" = "a708f01c-ae19-40a7-9e3a-052d465c806d";
+        "&sr" = 320x480;
+        "&t" = appview;
+        "&tid" = "UA-50190992-1";
+        "&ul" = en;
+        "&v" = 1;
+        "&z" = 13637099414081499102;
+        gaiVersion = "3.07";
+    };
+    timestamp = "2015-07-13 16:20:28 +0000";
+}
+2015-07-13 11:20:32.619 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIBatchingDispatcher persist:] (GAIBatchingDispatcher.m:424): Saved hit: {
+    parameters =     {
+        "&_u" = ".L";
+        "&_v" = "mi3.0.7";
+        "&aid" = "com.dagrinchi.sexyplan";
+        "&an" = Femiapp;
+        "&av" = "0.0.1";
+        "&cd" = pildoras;
+        "&cid" = "a708f01c-ae19-40a7-9e3a-052d465c806d";
+        "&sr" = 320x480;
+        "&t" = appview;
+        "&tid" = "UA-50190992-1";
+        "&ul" = en;
+        "&v" = 1;
+        "&z" = 13637099414081499103;
+        gaiVersion = "3.07";
+    };
+    timestamp = "2015-07-13 16:20:32 +0000";
+}
+2015-07-13 11:20:33.471 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIBatchingDispatcher persist:] (GAIBatchingDispatcher.m:424): Saved hit: {
+    parameters =     {
+        "&_u" = ".L";
+        "&_v" = "mi3.0.7";
+        "&aid" = "com.dagrinchi.sexyplan";
+        "&an" = Femiapp;
+        "&av" = "0.0.1";
+        "&cd" = home;
+        "&cid" = "a708f01c-ae19-40a7-9e3a-052d465c806d";
+        "&sr" = 320x480;
+        "&t" = appview;
+        "&tid" = "UA-50190992-1";
+        "&ul" = en;
+        "&v" = 1;
+        "&z" = 13637099414081499104;
+        gaiVersion = "3.07";
+    };
+    timestamp = "2015-07-13 16:20:33 +0000";
+}
+2015-07-13 11:20:35.809 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIRequestBuilder requestGetUrl:payload:] (GAIRequestBuilder.m:195): building URLRequest for https://ssl.google-analytics.com/collect
+2015-07-13 11:20:35.809 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIBatchingDispatcher dispatch] (GAIBatchingDispatcher.m:509): Sending hit(s) GET: https://ssl.google-analytics.com/collect?av=0.0.1&cd=home&t=appview&ul=en&_u=.L&tid=UA-50190992-1&cid=a708f01c-ae19-40a7-9e3a-052d465c806d&sr=320x480&v=1&aid=com.dagrinchi.sexyplan&_v=mi3.0.7&an=Femiapp&ht=1436804425803&qt=10005&z=13637099414081499100
+2015-07-13 11:20:36.195 Femiapp[2567:569629] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher didSendHits:response:data:error:] (GAIBatchingDispatcher.m:157): Hit(s) dispatched: HTTP status 200
+2015-07-13 11:20:36.195 Femiapp[2567:569769] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher deleteHits:] (GAIBatchingDispatcher.m:436): hit(s) Successfully dispatched
+2015-07-13 11:20:36.197 Femiapp[2567:569769] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher didSendHits:] (GAIBatchingDispatcher.m:167): 1 hit(s) sent
+2015-07-13 11:20:36.198 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIRequestBuilder requestGetUrl:payload:] (GAIRequestBuilder.m:195): building URLRequest for https://ssl.google-analytics.com/collect
+2015-07-13 11:20:36.198 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIBatchingDispatcher dispatch] (GAIBatchingDispatcher.m:509): Sending hit(s) GET: https://ssl.google-analytics.com/collect?av=0.0.1&cd=pildoras&t=appview&ul=en&_u=.L&tid=UA-50190992-1&cid=a708f01c-ae19-40a7-9e3a-052d465c806d&sr=320x480&v=1&aid=com.dagrinchi.sexyplan&_v=mi3.0.7&an=Femiapp&ht=1436804427098&qt=9100&z=13637099414081499101
+2015-07-13 11:20:36.267 Femiapp[2567:569629] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher didSendHits:response:data:error:] (GAIBatchingDispatcher.m:157): Hit(s) dispatched: HTTP status 200
+2015-07-13 11:20:36.267 Femiapp[2567:569769] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher deleteHits:] (GAIBatchingDispatcher.m:436): hit(s) Successfully dispatched
+2015-07-13 11:20:36.268 Femiapp[2567:569769] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher didSendHits:] (GAIBatchingDispatcher.m:167): 1 hit(s) sent
+2015-07-13 11:20:36.269 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIRequestBuilder requestGetUrl:payload:] (GAIRequestBuilder.m:195): building URLRequest for https://ssl.google-analytics.com/collect
+2015-07-13 11:20:36.269 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIBatchingDispatcher dispatch] (GAIBatchingDispatcher.m:509): Sending hit(s) GET: https://ssl.google-analytics.com/collect?av=0.0.1&cd=producto_pildoras_4&t=appview&ul=en&_u=.L&tid=UA-50190992-1&cid=a708f01c-ae19-40a7-9e3a-052d465c806d&sr=320x480&v=1&aid=com.dagrinchi.sexyplan&_v=mi3.0.7&an=Femiapp&ht=1436804428148&qt=8120&z=13637099414081499102
+2015-07-13 11:20:36.330 Femiapp[2567:569629] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher didSendHits:response:data:error:] (GAIBatchingDispatcher.m:157): Hit(s) dispatched: HTTP status 200
+2015-07-13 11:20:36.330 Femiapp[2567:569769] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher deleteHits:] (GAIBatchingDispatcher.m:436): hit(s) Successfully dispatched
+2015-07-13 11:20:36.331 Femiapp[2567:569769] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher didSendHits:] (GAIBatchingDispatcher.m:167): 1 hit(s) sent
+2015-07-13 11:20:36.332 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIRequestBuilder requestGetUrl:payload:] (GAIRequestBuilder.m:195): building URLRequest for https://ssl.google-analytics.com/collect
+2015-07-13 11:20:36.332 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIBatchingDispatcher dispatch] (GAIBatchingDispatcher.m:509): Sending hit(s) GET: https://ssl.google-analytics.com/collect?av=0.0.1&cd=pildoras&t=appview&ul=en&_u=.L&tid=UA-50190992-1&cid=a708f01c-ae19-40a7-9e3a-052d465c806d&sr=320x480&v=1&aid=com.dagrinchi.sexyplan&_v=mi3.0.7&an=Femiapp&ht=1436804432617&qt=3714&z=13637099414081499103
+2015-07-13 11:20:36.401 Femiapp[2567:569629] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher didSendHits:response:data:error:] (GAIBatchingDispatcher.m:157): Hit(s) dispatched: HTTP status 200
+2015-07-13 11:20:36.401 Femiapp[2567:569769] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher deleteHits:] (GAIBatchingDispatcher.m:436): hit(s) Successfully dispatched
+2015-07-13 11:20:36.402 Femiapp[2567:569769] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher didSendHits:] (GAIBatchingDispatcher.m:167): 1 hit(s) sent
+2015-07-13 11:20:36.403 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIRequestBuilder requestGetUrl:payload:] (GAIRequestBuilder.m:195): building URLRequest for https://ssl.google-analytics.com/collect
+2015-07-13 11:20:36.403 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIBatchingDispatcher dispatch] (GAIBatchingDispatcher.m:509): Sending hit(s) GET: https://ssl.google-analytics.com/collect?av=0.0.1&cd=home&t=appview&ul=en&_u=.L&tid=UA-50190992-1&cid=a708f01c-ae19-40a7-9e3a-052d465c806d&sr=320x480&v=1&aid=com.dagrinchi.sexyplan&_v=mi3.0.7&an=Femiapp&ht=1436804433468&qt=2934&z=13637099414081499104
+2015-07-13 11:20:36.464 Femiapp[2567:569629] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher didSendHits:response:data:error:] (GAIBatchingDispatcher.m:157): Hit(s) dispatched: HTTP status 200
+2015-07-13 11:20:36.465 Femiapp[2567:569769] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher deleteHits:] (GAIBatchingDispatcher.m:436): hit(s) Successfully dispatched
+2015-07-13 11:20:36.466 Femiapp[2567:569769] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher didSendHits:] (GAIBatchingDispatcher.m:167): 1 hit(s) sent
+2015-07-13 11:20:38.712 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIBatchingDispatcher persist:] (GAIBatchingDispatcher.m:424): Saved hit: {
+    parameters =     {
+        "&_u" = ".L";
+        "&_v" = "mi3.0.7";
+        "&aid" = "com.dagrinchi.sexyplan";
+        "&an" = Femiapp;
+        "&av" = "0.0.1";
+        "&cd" = inyectables;
+        "&cid" = "a708f01c-ae19-40a7-9e3a-052d465c806d";
+        "&sr" = 320x480;
+        "&t" = appview;
+        "&tid" = "UA-50190992-1";
+        "&ul" = en;
+        "&v" = 1;
+        "&z" = 13637099414081499105;
+        gaiVersion = "3.07";
+    };
+    timestamp = "2015-07-13 16:20:38 +0000";
+}
+2015-07-13 11:20:39.757 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIBatchingDispatcher persist:] (GAIBatchingDispatcher.m:424): Saved hit: {
+    parameters =     {
+        "&_u" = ".L";
+        "&_v" = "mi3.0.7";
+        "&aid" = "com.dagrinchi.sexyplan";
+        "&an" = Femiapp;
+        "&av" = "0.0.1";
+        "&cd" = home;
+        "&cid" = "a708f01c-ae19-40a7-9e3a-052d465c806d";
+        "&sr" = 320x480;
+        "&t" = appview;
+        "&tid" = "UA-50190992-1";
+        "&ul" = en;
+        "&v" = 1;
+        "&z" = 13637099414081499106;
+        gaiVersion = "3.07";
+    };
+    timestamp = "2015-07-13 16:20:39 +0000";
+}
+2015-07-13 11:20:48.718 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIRequestBuilder requestGetUrl:payload:] (GAIRequestBuilder.m:195): building URLRequest for https://ssl.google-analytics.com/collect
+2015-07-13 11:20:48.719 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIBatchingDispatcher dispatch] (GAIBatchingDispatcher.m:509): Sending hit(s) GET: https://ssl.google-analytics.com/collect?av=0.0.1&cd=inyectables&t=appview&ul=en&_u=.L&tid=UA-50190992-1&cid=a708f01c-ae19-40a7-9e3a-052d465c806d&sr=320x480&v=1&aid=com.dagrinchi.sexyplan&_v=mi3.0.7&an=Femiapp&ht=1436804438709&qt=10008&z=13637099414081499105
+2015-07-13 11:20:48.778 Femiapp[2567:569629] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher didSendHits:response:data:error:] (GAIBatchingDispatcher.m:157): Hit(s) dispatched: HTTP status 200
+2015-07-13 11:20:48.779 Femiapp[2567:569769] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher deleteHits:] (GAIBatchingDispatcher.m:436): hit(s) Successfully dispatched
+2015-07-13 11:20:48.781 Femiapp[2567:569769] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher didSendHits:] (GAIBatchingDispatcher.m:167): 1 hit(s) sent
+2015-07-13 11:20:48.782 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIRequestBuilder requestGetUrl:payload:] (GAIRequestBuilder.m:195): building URLRequest for https://ssl.google-analytics.com/collect
+2015-07-13 11:20:48.782 Femiapp[2567:569769] VERBOSE: GoogleAnalytics 3.07 -[GAIBatchingDispatcher dispatch] (GAIBatchingDispatcher.m:509): Sending hit(s) GET: https://ssl.google-analytics.com/collect?av=0.0.1&cd=home&t=appview&ul=en&_u=.L&tid=UA-50190992-1&cid=a708f01c-ae19-40a7-9e3a-052d465c806d&sr=320x480&v=1&aid=com.dagrinchi.sexyplan&_v=mi3.0.7&an=Femiapp&ht=1436804439753&qt=9028&z=13637099414081499106
+2015-07-13 11:20:48.842 Femiapp[2567:569629] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher didSendHits:response:data:error:] (GAIBatchingDispatcher.m:157): Hit(s) dispatched: HTTP status 200
+2015-07-13 11:20:48.842 Femiapp[2567:569769] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher deleteHits:] (GAIBatchingDispatcher.m:436): hit(s) Successfully dispatched
+2015-07-13 11:20:48.843 Femiapp[2567:569769] INFO: GoogleAnalytics 3.07 -[GAIBatchingDispatcher didSendHits:] (GAIBatchingDispatcher.m:167): 1 hit(s) sent
+2015-07-13 11:20:50.537 Femiapp[2567:578048] Communications error: <OS_xpc_error: <error: 0x38985f4> { count = 1, contents =
+	"XPCErrorDescription" => <string: 0x389883c> { length = 22, contents = "Connection interrupted" }
+}>

@@ -4,15 +4,6 @@
     <feature name="App">
         <param name="android-package" value="org.apache.cordova.App" />
     </feature>
-    <name>Sexyplan</name>
-    <description>
-        App para la planificación femenina. SEXYPLAN; TUS DIAS, TU FUTURO.
-    </description>
-    <author email="wdavid@dagrinchi.com" href="http://cool4code.com/">
-        David Alméciga, twitter @dagrinchi
-    </author>
-    <content src="index.html" />
-    <access origin="*" />
     <feature name="GoogleAnalytics">
         <param name="android-package" value="com.cmackay.plugins.googleanalytics.GoogleAnalyticsPlugin" />
     </feature>
@@ -31,4 +22,13 @@
     <feature name="LocalNotification">
         <param name="android-package" value="de.appplant.cordova.plugin.localnotification.LocalNotification" />
     </feature>
+    <name>Femiapp</name>
+    <description>
+        App para la planificación femenina. FEMIAPP; TUS DIAS, TU FUTURO.
+    </description>
+    <author email="wdavid@dagrinchi.com" href="http://cool4code.com/">
+        David Alméciga, twitter @dagrinchi
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
 </widget>

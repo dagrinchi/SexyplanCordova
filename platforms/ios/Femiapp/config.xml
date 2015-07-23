@@ -19,15 +19,6 @@
     <feature name="LocalStorage">
         <param name="ios-package" value="CDVLocalStorage" />
     </feature>
-    <name>Sexyplan</name>
-    <description>
-        App para la planificación femenina. SEXYPLAN; TUS DIAS, TU FUTURO.
-    </description>
-    <author email="wdavid@dagrinchi.com" href="http://cool4code.com/">
-        David Alméciga, twitter @dagrinchi
-    </author>
-    <content src="index.html" />
-    <access origin="*" />
     <feature name="GoogleAnalytics">
         <param name="ios-package" value="GoogleAnalyticsPlugin" />
     </feature>
@@ -50,4 +41,13 @@
         <param name="ios-package" onload="true" value="APPLocalNotification" />
         <param name="onload" value="true" />
     </feature>
+    <name>Femiapp</name>
+    <description>
+        App para la planificación femenina. FEMIAPP; TUS DIAS, TU FUTURO.
+    </description>
+    <author email="wdavid@dagrinchi.com" href="http://cool4code.com/">
+        David Alméciga, twitter @dagrinchi
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
 </widget>
