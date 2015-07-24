@@ -22,6 +22,23 @@ define(function(require) {
 		return deferred.promise();
 	};
 
+	var findByName = function(name) {
+		var deferred = $.Deferred();
+		deferred.resolve(getProductsByName($.merge(pildoras, inyectables), name));
+		return deferred.promise();
+	};	
+
+	function getProductsByName(products, name) {
+		var results = [];
+		var l = products.length;		
+		for (var i = 0; i < l; i++) {
+			if (products[i].marca.search(new RegExp(name, "i")) >= 0) {			
+				results.push(products[i]);
+			}
+		}
+		return results;
+	}
+
 	function getProduct(products, id) {
 		var product = null;
 		var l = products.length;
@@ -48,6 +65,7 @@ define(function(require) {
 
 	var inyectables = [{
 		"id": 1,
+		"categoria": "inyectables",
 		"nombreGenerico": "Acetato de Medroxiprogesterona 150mg",
 		"marca": "Depotrim",
 		"pastillaInyeccion": "Inyectable",
@@ -59,6 +77,7 @@ define(function(require) {
 		"rec_type" : "month_3___#"
 	}, {
 		"id": 2,
+		"categoria": "inyectables",
 		"nombreGenerico": "Acetato de Medroxiprogesterona 25mg<br/> Cipionato de Estradiol 5mg",
 		"marca": "Femelin",
 		"pastillaInyeccion": "Inyectable",
@@ -70,6 +89,7 @@ define(function(require) {
 		"rec_type" : "month_1___#"
 	}, {
 		"id": 3,
+		"categoria": "inyectables",
 		"nombreGenerico": "Enantato de Noretisterona 50mg<br/> Valeriato de Estradiol 5mg",
 		"marca": "Nofertyl",
 		"pastillaInyeccion": "Inyectable",
@@ -81,6 +101,7 @@ define(function(require) {
 		"rec_type" : "month_1___#"
 	}, {
 		"id": 4,
+		"categoria": "inyectables",
 		"nombreGenerico": "Algestona acetofenido 150mg<br/> Enantato de Estradiol 10mg",
 		"marca": "Synovular",
 		"pastillaInyeccion": "Inyectable",
@@ -92,6 +113,7 @@ define(function(require) {
 		"rec_type" : "month_1___#"
 	}, {
 		"id": 5,
+		"categoria": "inyectables",
 		"nombreGenerico": "Algestona acetofenido 90mg<br/> Enantato de Estradiol 6mg",
 		"marca": "Synovular suave",
 		"pastillaInyeccion": "Inyectable",
@@ -105,6 +127,7 @@ define(function(require) {
 
 	var pildoras = [{
 		"id": 1,
+		"categoria": "pildoras",
 		"nombreGenerico": "Etinil-estradiol 30mcg<br/> Drospirenona 2mg",
 		"marca": "Yax",
 		"pastillaInyeccion": "Pildoras diarias",
@@ -116,6 +139,7 @@ define(function(require) {
 		"rec_type" : null
 	}, {
 		"id": 2,
+		"categoria": "pildoras",
 		"nombreGenerico": "Etinil-estradiol 20mcg<br/> Drospirenona 2mg",
 		"marca": "Yaxibelle",
 		"pastillaInyeccion": "Pildoras diarias",
@@ -127,6 +151,7 @@ define(function(require) {
 		"rec_type" : null
 	}, {
 		"id": 3,
+		"categoria": "pildoras",
 		"nombreGenerico": "Etinil-estradiol 30mcg<br/> Dienogest 2mg",
 		"marca": "Bellaface",
 		"pastillaInyeccion": "Pildoras diarias",
@@ -138,6 +163,7 @@ define(function(require) {
 		"rec_type" : null
 	}, {
 		"id": 4,
+		"categoria": "pildoras",
 		"nombreGenerico": "Etinil-estradiol 20mcg<br/> Levonorgestrel 100 mcg",
 		"marca": "Minipil",
 		"pastillaInyeccion": "Pildoras diarias",
@@ -149,6 +175,7 @@ define(function(require) {
 		"rec_type" : null
 	}, {
 		"id": 5,
+		"categoria": "pildoras",
 		"nombreGenerico": "Levonorgestrel 0.03mg",
 		"marca": "Poslac",
 		"pastillaInyeccion": "Pildoras diarias",
@@ -160,6 +187,7 @@ define(function(require) {
 		"rec_type" : null
 	}, {
 		"id": 6,
+		"categoria": "pildoras",
 		"nombreGenerico": "Etinil-estradiol 30mcg<br/> Levonorgestrel 150mcg",
 		"marca": "Sinovul",
 		"pastillaInyeccion": "Pildoras diarias",
@@ -172,6 +200,7 @@ define(function(require) {
 	}
 	// ,{
 	// 	"id": 7,
+	//  "categoria": "inyectables",
 	// 	"nombreGenerico": "",
 	// 	"marca": "Segubell",
 	// 	"pastillaInyeccion": "Pildoras diarias",
@@ -187,6 +216,7 @@ define(function(require) {
 	return {
 		findByIdInyectables: findByIdInyectables,
 		findByIdPildoras: findByIdPildoras,
+		findByName: findByName,
 		findAllInyectables: findAllInyectables,
 		findAllPildoras: findAllPildoras
 	};

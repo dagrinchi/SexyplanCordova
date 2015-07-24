@@ -5,13 +5,14 @@
  */
 
 var App = {
+    search_txt: "",
     sound: "",
     router: {},
     models: {},
     collections: {},
     views: {},
     slider: {},
-    utils: {}
+    utils: {}    
 };
 
 var ga = {};

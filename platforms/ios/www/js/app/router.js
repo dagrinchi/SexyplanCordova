@@ -21,6 +21,7 @@ define(function(require) {
     var ProductView = require('app/views/product');
     var PlanView = require('app/views/plan');
     var HelpView = require('app/views/help');
+    var SearchView = require('app/views/search');
 
     var InyectablesTpl = require('text!tpl/inyectables.html');
     var PildorasTpl = require('text!tpl/pildoras.html');
@@ -34,7 +35,8 @@ define(function(require) {
             "pildoras": "pildoras",
             "product/:type/:id": "product",
             "calendar": "calendar",
-            "help": "help"
+            "help": "help",
+            "search": "search"
         },
 
         initialize: function() {
@@ -156,8 +158,16 @@ define(function(require) {
 
         calendar: function() {
             ga.sendAppView("calendar");
+            if (typeof App.collections.plan === "undefined")
+                App.collections.plan = new Plan.Collection();
+
             App.collections.plan.fetch({
                 "success": function() {
+                    if (typeof App.views.plan === "undefined")
+                        App.views.plan = new PlanView({
+                            collection: App.collections.plan
+                        });
+                    
                     App.views.plan.render();
                     App.slider.slidePage(App.views.plan.$el);
                 }
@@ -167,7 +177,43 @@ define(function(require) {
         help: function() {
             ga.sendAppView("help");
             App.slider.slidePage(new HelpView().render().$el);
+        },
+
+        search: function() {
+            ga.sendAppView("search");
+
+            if (typeof App.collections.search === "undefined")
+                App.collections.search = new Product.Collection();
+
+            App.collections.search.type = "search";
+            App.collections.search.search_txt = App.search_txt;
+            App.collections.search.fetch({
+                "success": function() {
+                    if (typeof App.views.search === "undefined") {
+                        App.views.search = new SearchView({                            
+                            collection: App.collections.search
+                        });                
+                    } else {
+                        App.views.search.delegateEvents();
+                    }
+                    App.views.search.search_txt = App.search_txt;
+                    App.slider.slidePage(App.views.search.render().$el);  
+                }
+            });
+        },
+
+        getQueryVariable: function(variable) {
+            var query = window.location.search.substring(1);
+            var vars = query.split("&");
+            for (var i = 0; i < vars.length; i++) {
+                var pair = vars[i].split("=");
+                if (pair[0] == variable) {
+                    return pair[1];
+                }
+            }
+            return (false);
         }
+
     });
 
 });

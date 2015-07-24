@@ -116,6 +116,7 @@
 /Users/david/cordova-projects/Femiapp/platforms/android/assets/www/js/app/views/plan.js \
 /Users/david/cordova-projects/Femiapp/platforms/android/assets/www/js/app/views/product.js \
 /Users/david/cordova-projects/Femiapp/platforms/android/assets/www/js/app/views/products.js \
+/Users/david/cordova-projects/Femiapp/platforms/android/assets/www/js/app/views/search.js \
 /Users/david/cordova-projects/Femiapp/platforms/android/assets/www/js/lib/backbone-relational.js \
 /Users/david/cordova-projects/Femiapp/platforms/android/assets/www/js/lib/backbone.js \
 /Users/david/cordova-projects/Femiapp/platforms/android/assets/www/js/lib/dhxscheduler_mobile_rec_debug.js \
@@ -146,6 +147,7 @@
 /Users/david/cordova-projects/Femiapp/platforms/android/assets/www/js/tpl/plan.html \
 /Users/david/cordova-projects/Femiapp/platforms/android/assets/www/js/tpl/product.html \
 /Users/david/cordova-projects/Femiapp/platforms/android/assets/www/js/tpl/products.html \
+/Users/david/cordova-projects/Femiapp/platforms/android/assets/www/js/tpl/search.html \
 /Users/david/cordova-projects/Femiapp/platforms/android/assets/www/plugins/com.cmackay.plugins.googleanalytics \
 /Users/david/cordova-projects/Femiapp/platforms/android/assets/www/plugins/de.appplant.cordova.plugin.local-notification \
 /Users/david/cordova-projects/Femiapp/platforms/android/assets/www/plugins/org.apache.cordova.console \

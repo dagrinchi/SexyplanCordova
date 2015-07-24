@@ -43,6 +43,11 @@ define(function(require) {
 					SexyplanData.findAllPildoras().done(function(data) {
 						options.success(data);
 					});
+				} else if (this.type === "search") {
+					var prom = SexyplanData.findByName(this.search_txt);
+					prom.done(function(data) {
+						options.success(data);
+					});
 				}
 			}
 		}
