@@ -1,12 +1,12 @@
 /Users/david/cordova-projects/Femiapp/platforms/android/ant-build/classes.dex : \
 /Users/david/cordova-projects/Femiapp/platforms/android/ant-build/classes/com/cmackay/plugins/googleanalytics/GoogleAnalyticsPlugin.class \
-/Users/david/cordova-projects/Femiapp/platforms/android/ant-build/classes/com/dagrinchi/sexyplan/BuildConfig.class \
-/Users/david/cordova-projects/Femiapp/platforms/android/ant-build/classes/com/dagrinchi/sexyplan/R$attr.class \
-/Users/david/cordova-projects/Femiapp/platforms/android/ant-build/classes/com/dagrinchi/sexyplan/R$drawable.class \
-/Users/david/cordova-projects/Femiapp/platforms/android/ant-build/classes/com/dagrinchi/sexyplan/R$string.class \
-/Users/david/cordova-projects/Femiapp/platforms/android/ant-build/classes/com/dagrinchi/sexyplan/R$xml.class \
-/Users/david/cordova-projects/Femiapp/platforms/android/ant-build/classes/com/dagrinchi/sexyplan/R.class \
-/Users/david/cordova-projects/Femiapp/platforms/android/ant-build/classes/com/dagrinchi/sexyplan/Sexyplan.class \
+/Users/david/cordova-projects/Femiapp/platforms/android/ant-build/classes/com/dagrinchi/femiapp/BuildConfig.class \
+/Users/david/cordova-projects/Femiapp/platforms/android/ant-build/classes/com/dagrinchi/femiapp/MainActivity.class \
+/Users/david/cordova-projects/Femiapp/platforms/android/ant-build/classes/com/dagrinchi/femiapp/R$attr.class \
+/Users/david/cordova-projects/Femiapp/platforms/android/ant-build/classes/com/dagrinchi/femiapp/R$drawable.class \
+/Users/david/cordova-projects/Femiapp/platforms/android/ant-build/classes/com/dagrinchi/femiapp/R$string.class \
+/Users/david/cordova-projects/Femiapp/platforms/android/ant-build/classes/com/dagrinchi/femiapp/R$xml.class \
+/Users/david/cordova-projects/Femiapp/platforms/android/ant-build/classes/com/dagrinchi/femiapp/R.class \
 /Users/david/cordova-projects/Femiapp/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/LocalNotification$1.class \
 /Users/david/cordova-projects/Femiapp/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/LocalNotification$2.class \
 /Users/david/cordova-projects/Femiapp/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/LocalNotification$3.class \
